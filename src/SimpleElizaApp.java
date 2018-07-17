@@ -12,7 +12,7 @@ public class SimpleElizaApp {
         question = keyboard.nextLine().toLowerCase();
 
 
-        while (!question.equals("q") && !question.equals("I am feeling great") ) {
+        while (!question.equals("q") && !question.equals("i am feeling great") ) {
 
             System.out.println(question);
             question = keyboard.nextLine().toLowerCase();
